@@ -1,36 +1,41 @@
 body{
-    text-align:center;     
-}
-.box{
-    text-align:left;
-    width:auto;
-    height:auto;
-}
-h3{
-    position:relative;
-   
+    width: 100%;
 }
 h1{
-    position:relative;
-   
+    font-size: 22px;
+    margin: 5px;
 }
 h2{
-    position:relative;
-   
-}
-canvas{
-    position:relative;
-   
-}
-@-webkit-keyframes canvasAnimation {
-   
-}
-@-webkit-keyframes h1Animation {
-   
-}
-@-webkit-keyframes h2Animation{ 
+    font-size: 18px;
+    margin: 5px;
+    padding: 0;
     
 }
-@-webkit-keyframes h3Animation{
-  
+.details{
+    display: block;
+    float: left;
+    width: 25%;
+    padding-left: 75%;
+}
+.education {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.work-experience{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+.languages{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.computer-programing-skills{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
