@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+    </head>
+    <body onload="initGame();">
+        <h1>Simple tic tac toe</h1>
+        <div class="prepare-field">
+            <a>Set cell count</a>
+                <input type="text">
+                <input type="button" value="Start" onclick="generateField()">
+        </div>
+        <div id="game" class="gamefield">
+        
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript"> 
+            function clkGameButton(){ 
+             if (isNaN(frnG.nCells.value)) {  
+              alert("Cell count.");
+              return;
+             }
+             var n=parseInt(frnG.nCells.value);
+             generateField(n,n);
+            }
+            function initGame(){ 
+             generateField(3,3); 
+            }
+        </script>
+    </body>
+
+</html>
