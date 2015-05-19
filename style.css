@@ -1,12 +1,13 @@
 body{
     width: 100%;
+    overflow-x: hidden;
 }
 h1{
-    font-size: 22px;
+    font-size: 1em;
     margin: 5px;
 }
 h2{
-    font-size: 18px;
+    font-size: 0.8em;
     margin: 5px;
     padding: 0;
     
@@ -38,4 +39,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+}
+.portfolio-link{
+    margin: 5px;
 }
